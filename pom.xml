@@ -42,21 +42,22 @@
 			<version>14.0.1</version>
 			<scope>test</scope>
 		</dependency>
+
 		<!-- real dependencies -->
 		<dependency>
 			<groupId>cascading</groupId>
 			<artifactId>cascading-core</artifactId>
-			<version>2.2.1</version>
+			<version>2.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>cascading</groupId>
 			<artifactId>cascading-hadoop</artifactId>
-			<version>2.2.1</version>
+			<version>2.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>cascading</groupId>
 			<artifactId>cascading-local</artifactId>
-			<version>2.2.1</version>
+			<version>2.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -64,10 +65,11 @@
 			<version>1.7.2</version>
 		</dependency>
 		<!-- provided -->
-		<dependency>
+
+        <dependency>
 			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-core</artifactId>
-			<version>1.1.2</version>
+			<artifactId>hadoop-mapreduce-client-core</artifactId>
+			<version>2.2.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
